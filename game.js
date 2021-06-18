@@ -77,7 +77,7 @@ class Game {
           ellipse(x,y,60,60);
           runners[index - 1].shapeColor = "red";
           camera.position.x = runners[index-1].x;
-          camera.position.y = runners[index-1].y;ytt
+          camera.position.y = runners[index-1].y;
           if(runners[index-1].isTouching(obstaclesgroup)){
           gameState=2
           }
